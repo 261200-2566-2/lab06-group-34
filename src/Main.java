@@ -57,7 +57,10 @@ public class Main {
         System.out.println("\nAfter taking damage:");
         displayCharacterStats(Knack);
     }
-
+    /**
+     * displayCharacterStats is show all stats of character
+     * effect : print Character Stats, Equipment
+     */
     private static void displayCharacterStats(Fighter character) {
         System.out.println("\nCharacter Stats:");
         System.out.println("Max HP: " + character.getMaxHP());
